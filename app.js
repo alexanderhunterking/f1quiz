@@ -8,14 +8,6 @@ const randomYear = Math.floor(Math.random() * (maxYear - minYear + 1)) + minYear
 
     let deep;
 
-function loader() {
-  deep = setTimeout(showPage, 3000);
-}
-
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
-}
 
     function randomizeItems(items)
 {
