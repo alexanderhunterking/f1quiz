@@ -6,10 +6,19 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title >F1 quiz</title>
 </head>
+
 <body class="bg-dark" onload = "randomizeList()">
 
-    
-  
+    <nav class="navbar bg-secondary">
+        <div class="container-fluid ">
+          <a class="navbar-brand text-light mx-3">F1 Quiz</a>
+          <form class="d-flex" role="search">
+
+            <a class="btn btn-outline-light mx-3" href="http://ergast.com/mrd/">API</a>
+          </form>
+        </div>
+      </nav>
+  <br>
         
     <div class="container border border-dark-subtle rounded my-2 shadow "><h3 class="text-light text-center py-2 " id="h3"></h3></div>
     <div class="container justify-content-center">
@@ -24,10 +33,10 @@
 
 
                 <ul  id="myItems">
-          <li><div class="col-12 py-2"><a href="right.html" class="btn btn-primary shadow" id="1"></a></div></li>
-          <li><div class="col-12 py-2"><a href="wrong.html" class="btn btn-primary shadow" id="2"></a></div></li>
-          <li><div class="col-12 py-2"><a href="wrong.html" class="btn btn-primary shadow" id="3"></a></div></li>
-          <li><div class="col-12 py-2"><a href="wrong.html" class="btn btn-primary shadow" id="4"></a></div></li>
+          <li><div class="col-12 py-2"><a href="right.html" class="btn btn-secondary shadow" id="1"></a></div></li>
+          <li><div class="col-12 py-2"><a href="wrong.html" class="btn btn-secondary shadow" id="2"></a></div></li>
+          <li><div class="col-12 py-2"><a href="wrong.html" class="btn btn-secondary shadow" id="3"></a></div></li>
+          <li><div class="col-12 py-2"><a href="wrong.html" class="btn btn-secondary shadow" id="4"></a></div></li>
         </ul>
   
     </div>
